@@ -19,7 +19,7 @@ public:
     float getA() { return this->a; };
     float getB() { return this->b; };
     float getC() { return this->c; };
-    float getSq() { return this->a; };
+    float getSq() { return this->sq; };
 };
 
 class Square : public Polygon {     // parent class inheritor
